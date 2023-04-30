@@ -1,6 +1,20 @@
 # dashboard_bot
 Analytics 
 
+# Requirements:
+
+Terraform
+
+# AWS IAC
+
+aws configure
+terraform init
+terraform fmt
+terraform validate
+
+terraform apply
+
+
 
 
 

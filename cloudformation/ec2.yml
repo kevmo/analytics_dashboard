@@ -136,11 +136,11 @@ Resources:
               - "\n"
               -  "git init"
               - "\n"
-              -  "git clone https://github.com/aws-samples/analyzing-reddit-sentiment-with-aws.git"
+              -  "git clone https://github.com/kevmo/analytics_dashboard.git"
               - "\n"
               -  "echo \"git clone complete...\""
               - "\n"
-              -  "cd analyzing-reddit-sentiment-with-aws/python-app"
+              -  "cd analytics_dashboard/app"
               - "\n"
               -  "echo \"current dir:\""
               - "\n"
@@ -176,7 +176,7 @@ Resources:
               - "\n"
               -  "echo \"running script...\""
               - "\n"
-              -  "python3 comment-stream.py funny AskReddit worldnews pics science gaming todayilearned videos movies aww IAmA Music gifs news blog askscience explainlikeimfive Showerthoughts books mildlyinteresting television LifeProTips Jokes DIY space food gadgets nottheonion sports Art photoshopbattles GetMotivated Documentaries dataisbeautiful history Futurology personalfinance philosophy technology Fitness &>> realtime-comment-stream-log.txt"
+              -  "python3 comment-stream.py programming &>> realtime-comment-stream-log.txt"
               - "\n"
 
   rInstanceSecurityGroup:

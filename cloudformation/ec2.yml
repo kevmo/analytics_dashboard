@@ -34,7 +34,6 @@ Parameters:
   pKinesisDeliveryStream:
       Type: String
       Description: The name of the kinesis delivery stream. (ex. raw-reddit-comment-delivery-stream )
-      Default:
 
   pRedditUsername:
       Type: String
@@ -177,7 +176,7 @@ Resources:
               - "\n"
               -  "echo \"running script...\""
               - "\n"
-              -  "python3 comment-stream.py nba nbacirclejerk warriors  bostonceltics chicagobulls heat mavericks"
+              -  "python3 comment-stream.py nba nbacirclejerk warriors  bostonceltics chicagobulls heat mavericks &"
               - "\n"
 
   rInstanceSecurityGroup:

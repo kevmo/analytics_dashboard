@@ -1,5 +1,5 @@
 AWSTemplateFormatVersion: 2010-09-09
-Description: Glue Stack Layer of CloudFormation template for migrating data from oracle database to s3
+Description: Glue Stack Layer of CloudFormation template for migrating data from database to s3
 
 Parameters:
   pGlueDBName:

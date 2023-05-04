@@ -1,31 +1,27 @@
-# dashboard_bot
-Analytics 
+# Reddit.com Analyzer
+## Streaming Analytics of various communities on reddit.com
 
-# Requirements:
+Get a quick overview of a community & its current level of activity.
 
-Terraform
+### Stack:
 
-# AWS IAC
-
-aws configure
-terraform init
-terraform fmt
-terraform validate
-
-terraform apply
-
-
-
-
-
+**AWS Services:** 
+* CloudFormation: Infrastructure as Code
+* EC2 for running a custom script to query reddit's API & act as a Kinesis Producer
+* Kinesis for streaming data
+* S3 for data lake
+* Glue for crawling data and creating a metadata store
+* Athena for analytics and data modeling
+* Quicksight for visualization dashboard
 
 #### Helpful Documentation:
 
 https://developer.hashicorp.com/terraform/docs
 
-https://docs.confluent.io/platform/current/installation/configuration/
 
-https://docs.confluent.io/platform/current/streams/concepts.html
+https://docs.aws.amazon.com/glue/
+https://docs.aws.amazon.com/ec2/
+https://docs.aws.amazon.com/kinesis
 
-https://docs.aws.amazon.com/glue/latest/dg/what-is-glue.html
+
 

@@ -1,18 +1,15 @@
-# Reddit.com Analyzer
-## Streaming Analytics of various communities on reddit.com
+# Reddalyzer
+### 
 
-Get a quick overview of a community & its current level of activity.
+#### Technologies (Mostly AWS)
 
-### Stack:
-
-**AWS Services:** 
-* CloudFormation: Infrastructure as Code
-* EC2 for running a custom script to query reddit's API & act as a Kinesis Producer
-* Kinesis for streaming data
-* S3 for data lake
-* Glue for crawling data and creating a metadata store
-* Athena for analytics and data modeling
-* Quicksight for visualization dashboard
+* Infrastructure as Code: `CloudFormation` and `Terraform`
+* Compute: `EC2`
+* Streaming: `Kinesis Firehose`
+* Data Lake: `S3`
+* Data discovery: `Glue`
+* Data Analytics:`Athena`
+* Data Visualization and Business Intelligence: `QuickSight`
 
 #### Helpful Documentation:
 

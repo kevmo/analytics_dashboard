@@ -1,0 +1,8 @@
+AWSTemplateFormatVersion: 2010-09-09
+Description: S3 bucket to store Athena queries
+
+Resources:
+  Type: AWS::S3::Bucket
+  Properties: 
+    BucketName: "Reddit-Athena-Queries"
+    

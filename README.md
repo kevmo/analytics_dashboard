@@ -1,7 +1,7 @@
 # Reddalyzer
 ### 
 
-#### Technologies (Mostly AWS)
+###`# Technologies (Mostly AWS)
 
 * Infrastructure as Code: `CloudFormation` and `Terraform`
 * Compute: `EC2`
@@ -22,3 +22,4 @@ https://docs.aws.amazon.com/kinesis
 
 
 
+`
